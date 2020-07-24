@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python/Milight" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RN Share" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_python3_spider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spider_python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weibospider" vcs="Git" />
+  </component>
+</project>

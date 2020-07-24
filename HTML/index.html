@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function validateForm() {
+            var x=document.forms["myForm"]["fname"].value;
+            if (x==null||x==""){
+                alert('姓名必须填写')
+                return false
+            }
+        }
+    </script>
+    <style>
+        div {
+            width: 100%;
+            height: 100%;
+            background-color: aquamarine;
+            margin: 0px auto;
+            padding: 0px;
+
+            /*outline: #00FF00 dotted thick;*/
+        }
+        body {
+            height: 1700px;
+            background-color: azure;
+            background-image: linear-gradient(to right,red,green);
+            padding: 0px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+        li:hover {
+            background-color: chartreuse;
+        }
+        li {
+            list-style-type: none;
+            /*float: left;*/
+            display: inline-block;
+            /*margin-top: 20px;*/
+            width: 100px;
+            line-height: 50px;
+            text-align: center;
+            border-right: 20px solid #bbb ;
+
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            overflow: auto;
+            background-color: darkseagreen;
+        }
+        .right {
+            position: fixed;
+            right: 20px;
+            top: 100px;
+            width: 150px;
+            height: 60%;
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <!--<form name="myForm" action="exec1" onsubmit="return validateForm()"  method="post">-->
+        <!--<input type="text" name="fname" required="required">-->
+        <!--<button title="提交">提交</button>-->
+    <!--</form>-->
+    <div >
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#news">新闻</a></li>
+            <li><a href="#contact">联系</a></li>
+            <li><a href="#about">关于</a></li>
+        </ul>
+        <aside class="right">右侧区域</aside>
+    </div>
+</body>
+</html>
